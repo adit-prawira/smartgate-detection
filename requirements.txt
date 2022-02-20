@@ -1,0 +1,5 @@
+pyrealsense2>=2.50.0.3812 
+python-dotenv>=0.19.2 
+numpy>=1.22.1
+pynput>=1.7.6
+opencv-contrib-python>=4.5.5.62
