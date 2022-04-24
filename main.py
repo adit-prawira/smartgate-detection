@@ -40,7 +40,7 @@ class ObjectDetectionRS(EventLogs):
     def __kill(self):
         if len(list(q.queue)) > 0:
             # when there are items still exist in queue
-            # clear all of those items during termination uting mutex
+            # clear all of those items during termination using mutex
             with q.mutex:
                 q.queue.clear()
 
